@@ -6,9 +6,15 @@ function generateNumber() {
     const min = Math.ceil(document.querySelector('.first-input').value)
     const max = Math.floor(document.querySelector('.two-input').value)
 
-    const result = Math.floor(Math.random() * (max - min) + min)
+
+    if (min >= max) {
+        alert('O valor minimo tem que ser Menor que o valor máximo')
+    } else {
+        const result = Math.floor(Math.random() * (max - min) + min)
 
     alert(result)
+    }
+ 
 }
 
 
