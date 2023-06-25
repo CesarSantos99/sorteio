@@ -2,8 +2,8 @@
 
 ## Tecnologias
 
-*HTML
-*CSS
+*HTML<br>
+*CSS<br>
 *Javascript
 
 ## Sobre
